@@ -13,6 +13,20 @@ body {
   margin: auto;
 }
 
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 22rem;
+    padding-top: 0rem;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
+
+/* Header */
+
 .companyname {
   display: flex;
   align-items: center;
@@ -61,6 +75,8 @@ header {
   font-weight: bold;
   margin-right: -2rem;
 }
+
+/* Services */
 
 .services-container {
   width: 700px;
@@ -133,6 +149,8 @@ header {
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
 }
+
+/* Footer */
 
 footer {
   background-color: azure;
